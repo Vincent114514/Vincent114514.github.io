@@ -1,11 +1,14 @@
-#Header
-{
+.section{
     border: solid 8px black;
-    width: 500px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
     text-align:center;
+}
+
+#Header
+{
+    width: 500px;
 }
 
 #Header h1{ 
@@ -16,24 +19,14 @@
 
 #LeftNav{
     border-radius: 25px;
-    border: solid 8px black;
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
     float: left;
-    text-align:center;
     padding-bottom:8px;
 }
 
 #Content{
     border-radius: 25px;
-    border: solid 8px black;
     width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px; 
-    text-align:center;
     padding: 15px;
 }
 
@@ -79,5 +72,9 @@ a{
 #Content img{
     border-radius: 75%;
     transition: width 2s;
+}
+
+#LeftNav img{
+    transform: rotate(20deg);
 }
 
